@@ -55,9 +55,9 @@ class _FormsState extends State<Forms> {
                 });
               },
               child: Text('Submit')),
-          Text("Email : "),Text(str),
-          Text("Password : "),Text(str1),
-          Text("Re-Confirm Password : "),Text(str2)
+          Text("Email : $str"),
+          Text("Password : $str1"),
+          Text("Re-Confirm Password : $str2")
         ],
       ),
     );
